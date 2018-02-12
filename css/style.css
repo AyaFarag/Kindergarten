@@ -1,0 +1,505 @@
+/************************************ Bootstrap classes ********************************/
+
+/* 
+text:
+
+text-center - text-left - text-right - text-justify - text-nowrap - h1 h2 h3 h4 h5 h6 - lead - small -
+text-lowercase - text-uppercase - text-capitalize 
+
+list
+
+list-unstyled - list-inline(inline block) -
+
+
+dl-horizontal(Horizontal description) - 
+
+
+Table:
+
+table - table-striped - table-bordered - table-hover - table-condensed -
+active - success - warning - danger - info - table-responsive - 
+
+
+Form:
+
+form-group - form-control - form-inline(code) - 
+ form-horizontal(code) - (Checkboxes and radios) checkbox - radio - radio-inline - disabled - checkbox-inline -
+ form-control-static - (inputs) has-warning - has-error - has-success -control-label -help-block -
+ has-feedback - sr-only - 
+ 
+ Input:
+ 
+ input-lg (sizing) - form-group-lg - form-group-sm - 
+ 
+ Button:
+ 
+ btn - btn-default - 
+ btn-primary - btn-success - btn-info - btn-warning - btn-danger - btn-link - btn-lg - btn-sm - btn-xs -
+ btn-block -active(botton) - 
+ 
+ 
+ image:
+ 
+ img-responsive - center-block(class for img instead of text-center) -
+ img-rounded - img-circle - img-thumbnail - 
+ 
+ 
+ text-muted - text-primary - text-success - text-info - text-warning-
+ text-danger - 
+ 
+ Icon:
+
+ (Close icon - code) - caret - 
+ 
+ 
+ Float:
+ {pull-left pull-right (float)} - 
+ 
+ Display:
+ center-block(display) - 
+ 
+ 
+ Divclearfix:
+ clearfix */
+
+
+
+/*  Add the (disabled) attribute to <button> buttons.   */
+
+
+
+
+/* types of input type { text, password, datetime, datetime-local, date, month, time, week, number, email, url,
+ search, tel, and color.} */
+
+
+
+/*   overflow-y: hidden   */
+
+
+
+
+
+/*  address code - <kbd> - <select multiple class="form-control"> */
+
+
+
+
+
+/************************************ Project commen classes ********************************/
+body {
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+.bo {   /*backgroundOrange */
+    background-color: #FE6500;
+}
+.co {   /*colorOrange */
+    color: #FE6500;
+}
+.bp {  /*backgroundPurple */
+    background-color: #56509F;
+}
+.cp { /*colorPurple */
+    color: #56509F;
+}
+.bdb {   /*backgroundDblue */
+    background-color:  #002e5b;
+}
+.cb {  /*colorDblue */
+    color: #002e5b;
+}
+.bw {  /*backgroundWhite */
+    background-color: #fff;
+}
+.bn {   /*backgroundNone */
+    background-color: none;
+}
+.cw {  /* colorWhite */
+    color: #fff;
+}
+.cg {  /* colorGray */
+    color: #A0A0A0;
+}
+.cwg {
+    color: #CCCAE2;
+}
+bwg {
+    background-color: #CCCAE2;
+}
+.bold {
+    font-weight: bold;  /* <strong> tag */
+}
+/* #f0f2f5 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************ projects css classes ********************************/
+
+
+
+
+
+/***************************************      Navbar         *********************************/
+
+.navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top 
+{
+    background-color: #FE6500;
+    opacity: 0.8;
+}
+.navbar-nav>li>a {
+    line-height: 38px;
+}
+a {
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-brand {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+        background-color: #fff;
+        color:#FE6500;
+}
+
+/******************************************************  Header  ***************************************************************/
+
+.header{
+    
+    background-image:url('../images/slider_slide1_background.png') no-repeat center center fixed;
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.header img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+/************************************ slide pass part       ********************************/
+
+
+.slidpass {
+    
+    height: 150px;
+    background-size: cover;
+    /*background-color: #002e5b;*/
+    /*background:url('../images/pattern.png') no-repeat center center fixed;*/
+    margin-top: -20px;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 28px;
+    position: relative;
+
+}
+
+.slidpass .pandbtn {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    right: 450px;
+    /*background-color: blue;*/
+}
+/*.slidpass .pandbtn p {
+    text-align: center;
+}*/
+/*.slidpass .pandbtn button {
+    text-align: center;
+}*/
+
+button, input, select, textarea {
+    background:none ;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 15px;
+    width: 185px;
+    outline: 0;
+    text-align: center;
+}
+.fa {
+    margin-left: 10px;
+    
+}
+
+
+/***************************************************  Feature part   ***************************************************************/
+.features {
+    /*border: 1px solid #000;*/
+    padding-bottom: 70px;
+    background-color: #f0f2f5 ;
+    }
+.featureheadeing {
+    padding-top: 35px;
+    margin-bottom: 70px;
+    
+
+}
+.h1, h1 {
+    font-size: 45px;
+}
+.feature .featureheading .h1, h1 {
+    font-size: 50px;
+}
+.featureheadeing p:hover {
+    color: #FE6500;
+}
+.features .row div {
+    
+    padding: 15px;
+    margin-bottom: 3%;
+    
+}
+.features .row div:hover {
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+
+/***************************************************  services   *************************************************************/
+
+
+.services {
+    /*background:url('../images/parallax_01.jpg') no-repeat center center fixed;*/
+    height: 550px;
+    padding: 10px;
+    overflow: hidden;
+    color: #fff;
+
+    
+}
+.services .one {
+    width: 180px;
+    height: 180px;
+    border: 2px solid #fff;
+    margin: auto;
+    
+}
+.services .hi {
+    height: 370px;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+
+}
+.services .hi .number1 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:88px;
+    font-size: 50px;
+}
+.services .hi .number2 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:103px;
+    font-size: 50px;
+}
+.services .hi .number3 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:118px;
+    font-size: 50px;
+}
+.services .hi .number4 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:82px;
+    font-size: 50px;
+}
+
+/*****************************************************    our classes  ********************************************************/
+.classes {
+    padding-top: 30px;
+    
+}
+
+.classes h1 {
+    font-size: 40px;
+
+}
+.classes p {
+    font-size: 20px;
+}
+.classes .divider {
+    /*background: url('../images/header_divider.png') no-repeat center center;*/
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+/***************************************************** Classes parts    *****************************************************/
+
+.classesparts {
+    height: 550px;
+    padding: 10px;
+    overflow: hidden;
+    color: #fff;
+    margin: auto;
+}
+.classesparts .row {
+     
+        /*background-color: aqua; */
+        height: auto;
+        /*text-align: center;*/
+    }
+
+.classesparts .one {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.classesparts .hi {
+    /*height: 370px;*/
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+.classesparts .hi .number1 {
+    /*margin-bottom: 30px;*/
+    position: absolute;
+    top:55px;
+    left:107px;
+    font-size: 50px;
+    text-align: center;
+}
+.classesparts .hi .number2 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:98px;
+    font-size: 50px;
+}
+.classesparts .hi .number3 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:103px;
+    font-size: 50px;
+}
+.classesparts .hi .number4 {
+    margin-bottom: 30px;
+    position: absolute;
+    top:55px;
+    left:103px;
+    font-size: 50px;
+}
+
+/********************************************** paragraph part **********************************************/
+.paragragh {
+    /*border: 1px solid #A0A0A0;*/
+    /*padding-bottom: 2%;*/
+}
+.paragragh .p1 {
+    font-size: 30px;
+    padding: 20px;
+}
+.paragragh .p2 {
+    padding: 30px;
+    font-size: 16px;
+}
+
+/************************************************ classe name section  *************************************************/
+
+.className {
+    /*padding: 5%;*/
+
+}
+.className .row .divv {
+    margin-bottom: 2%;
+}
+
+
+.className .row div {
+    border: 0px solid #fff;
+    height: 200px;
+    /*margin-bottom: 1%;*/
+    /*margin-top: 1%;*/
+}
+.className .text ,img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*display: inline-block;*/
+}
+.className .text {
+    background-color: #56509F;
+}
+.className .text .tittle .pp, .span1 {
+    padding-left: 6%;
+}
+.className .text .tittle {
+    position: relative;
+}
+.className .text .tittle .l {
+    position: absolute;
+    bottom: 15%;
+    height: auto;
+    left: 13%;
+    float: left;
+    width: 100px;
+    text-align: center;
+    /*display: inline-block;*/
+    border: 0;
+    border-right: 1px solid #807CB7;
+    font-size: 16px;
+
+}
+.className .text .tittle .r {
+    position: absolute;
+    right: 16%;
+    bottom: 16%;
+    text-align: center;
+    height: 52px;
+    float: left;
+    border: 0;
+    font-size: 16px;
+    
+}
+.className .text .tittle .pp, .span1 {
+    font-size: 20px;
+}
+/****************************************************** Footer   ****************************************************/
+    .footer {
+        /*background:url('../images/pattern.png') no-repeat center center fixed;*/
+        height: 70px;
+        margin-top: 15%;
+        text-align: center;
+        color: #fff;
+        padding: 5%;
+        font-size: 16px;
+    }
